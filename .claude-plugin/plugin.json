@@ -1,0 +1,14 @@
+{
+  "name": "evrimagaci",
+  "displayName": "Evrim Ağacı",
+  "version": "1.0.0",
+  "description": "Search, read and cite Evrim Ağacı, Turkey's largest independent popular science platform. Check scientific claims against its editor-reviewed Turkish sources, summarize topics, build reading plans and get a daily digest. With your permission, it also saves, publishes and follows the approvals you give on evrimagaci.org.",
+  "author": {
+    "name": "Evrim Ağacı",
+    "url": "https://evrimagaci.org"
+  },
+  "homepage": "https://evrimagaci.org/yapay-zeka",
+  "repository": "https://github.com/evrimagaci/claude-plugin",
+  "license": "MIT",
+  "keywords": ["science", "turkish", "fact-check", "evolution", "education", "reading"]
+}
