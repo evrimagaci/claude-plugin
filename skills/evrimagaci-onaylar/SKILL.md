@@ -38,6 +38,7 @@ Call `confirmation_status` with the confirmation id, once. Then report by status
 |---|---|---|
 | `done` | The action ran. | The result (for example the URL of the new comment) and the ATP it cost. |
 | `failed` | The user approved, but the site refused it: for example the price changed after the approval, the balance is short, or a site rule applies. | The reason in `error`. Offer a new request only if the user still wants the action. |
+| `unknown` | The user approved, but the call broke off with an error partway through. It may or may not have taken effect. | That the outcome is unknown. Ask the user to check on evrimagaci.org before any new request, so nothing runs twice. |
 | `pending` | Not decided yet. | The link and the deadline again. Do not check in a loop; wait for the user. |
 | `approved` | Approved and still running. | That it is running; check once more when the user asks. |
 | `rejected` | The user declined. | That nothing happened. Do not ask again unless the user asks. |
