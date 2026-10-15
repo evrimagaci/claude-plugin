@@ -73,11 +73,11 @@ You can see every connected assistant, change or time-limit its permissions, see
 - **"Sign in to continue" when you are signed out.** The limit for use without an account is reached. Sign in. Your account has its own quota.
 - **A permission is missing.** Claude asks you to connect again. Allow the permission on the consent screen. You can also allow it for the connection at https://evrimagaci.org/uye/yapay-zeka. The change applies to the next request.
 - **An action waits for your approval.** Open the approval link that Claude gives you and select Onayla (approve) or Reddet (reject). Waiting requests are also listed under "Onayınızı bekleyenler" at https://evrimagaci.org/uye/yapay-zeka. A request expires after 30 minutes. After that, ask Claude again to make a new one.
-- **Something else is wrong.** Read the setup steps at https://evrimagaci.org/yapay-zeka, or write to info@evrimagaci.org.
+- **Something else is wrong.** Read the setup steps at https://evrimagaci.org/mcp, or write to info@evrimagaci.org.
 
 ## Links
 
-- About the connector and setup: https://evrimagaci.org/yapay-zeka
+- About the connector and setup: https://evrimagaci.org/mcp
 - Privacy policy: https://evrimagaci.org/s/6964
 - Terms of use: https://evrimagaci.org/s/6961
 - Content license: https://evrimagaci.org/s/6955
