@@ -8,7 +8,8 @@ description: Handle Evrim Ağacı (evrimagaci.org) approval requests and permiss
 Some actions do not run when a tool is called. They wait for the user's own decision on evrimagaci.org, where the user is logged in:
 
 - every action that spends ATP, Evrim Ağacı's in-site points (the connector never spends money);
-- publishing text under the user's name (comments, posts, questions, answers, edits, chat messages, direct messages, dictionary terms, publishing a draft, sharing a reading list) while the user's "approve what is published" preference is on, which is the default.
+- every direct message sent or edited (`dm_send`, `dm_edit`): the page shows the recipient and the exact text;
+- publishing other text under the user's name (comments, posts, questions, answers, edits, chat messages, dictionary terms, publishing a draft, sharing a reading list) while the user's "approve what is published" preference is on, which is the default.
 
 Nothing runs until the user approves on the site. A request expires 30 minutes after it is made.
 

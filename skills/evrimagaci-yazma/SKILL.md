@@ -12,7 +12,7 @@ Everything these tools publish appears under the user's own name, for other memb
 1. **Show the exact text** that the tool will send, where it goes (the article, question, post, channel or person) and who will see it. Show the title, links, category and references too when the tool takes them.
 2. **Wait for a clear yes to that exact text.** Any change after the yes, even a small one, needs a new yes.
 3. **When the user is unsure, save a draft instead.** `save_draft` keeps a private draft that only the user sees, at https://evrimagaci.org/uye/yapay-zeka/taslaklar, where they can edit, publish or delete it. To publish it later, call `publish_draft` with the draft's current `version` (from `save_draft`, `update_draft`, `get_draft` or `list_drafts`). The version pins the exact text: if the user edited the draft on the site, read it again with `get_draft` and show the new text first.
-4. **Call the tool.** While the user's "approve what is published" preference is on (the default), the tool waits for the user's approval on evrimagaci.org. Follow the evrimagaci-onaylar skill.
+4. **Call the tool.** While the user's "approve what is published" preference is on (the default), the tool waits for the user's approval on evrimagaci.org. A direct message sent or edited (`dm_send`, `dm_edit`) always waits, whatever the preference says. Follow the evrimagaci-onaylar skill.
 
 When the user asks you to write something for them, write it as a proposal, show it, and publish it only after they approve that exact wording. Do not add links, tags, mentions or claims the user did not approve.
 

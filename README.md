@@ -52,7 +52,7 @@ You can see every connected assistant, change or time-limit its permissions, see
 | Read my direct messages, Send direct messages for me | read and send direct messages |
 | Spend ATP | take actions that cost ATP, each one approved by you on evrimagaci.org |
 
-- **Approvals.** Every action that spends ATP, and everything published in your name while "approve what is published" is on (the default), waits for you on evrimagaci.org. Claude gives you the link and the exact cost. Nothing runs until you approve there.
+- **Approvals.** Every action that spends ATP, every direct message sent or edited, and everything else published in your name while "approve what is published" is on (the default), waits for you on evrimagaci.org. Claude gives you the link and the exact cost. Nothing runs until you approve there.
 - **ATP is not money.** ATP is Evrim Ağacı's in-site point balance, earned on the site. The connector never makes payments with money.
 - **Label.** Content published or edited through an assistant shows the small label "Asistan aracılığıyla" ("via an assistant"), unless you turn it off.
 - **Undo.** Every action is listed under "Son işlemler" on https://evrimagaci.org/uye/yapay-zeka. Reversible actions have an undo button there for seven days. Deletes are final.
